@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clinithae"
+version = "0.1.0"
+description = ""
+authors = ["camillebrianceau <57992134+camillebrianceau@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+clinicadl = "^1.4.0"
+pythae = "^0.1.1"
+
+[tool.poetry.scripts]
+clinithae = "clinithae.cmdline:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
