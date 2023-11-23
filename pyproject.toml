@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-clinicadl = { git = "https://github.com/aramis-lab/clinicadl.git", branch = "rh_pythae" } 
+clinicadl = { git = "https://github.com/msolal/clinicadl.git", branch = "ms_pythae" }
 pythae = "^0.1.1"
 
 [tool.poetry.scripts]
